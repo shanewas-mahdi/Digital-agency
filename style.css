@@ -6,7 +6,7 @@
 
 .nav-container {
     display: flex;
-    background-color: gray;
+    background-color: rgb(51, 51, 51);
     padding: 10px;
     justify-content: space-around;
     align-items: center;
@@ -17,18 +17,19 @@
     list-style: none;
     display: flex;
     gap: 15px;
-
+    color: white;
 
 }
 
 .menu-items:hover {
-    color: white;
+    color: rgb(11, 38, 187);
     cursor: pointer;
+
 }
 
 .banner-contain {
     height: 100vh;
-    background-image: url("./Assets/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+    background-image: url("./Assets/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,4 +37,129 @@
     display: flex;
     align-items: center;
     text-align: center;
+
+
+}
+
+.banner-info {
+    width: 50%;
+    margin: auto;
+}
+
+.banner-title {
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.red-f {
+    color: red;
+}
+
+.banner-des {
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    font-size: 24px;
+
+}
+
+.btn {
+    height: 40px;
+    width: 100px;
+    margin-left: 15px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.bg-primary {
+    background-color: red;
+    color: white;
+}
+
+.service-cotain {
+    height: 100vh;
+    background-image: url("./Assets/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+
+}
+
+.icon {
+    width: 70px;
+
+}
+
+ol {
+    margin-left: 30px;
+    font-size: 20px;
+
+}
+
+.box {
+    text-align: center;
+    width: 150px;
+    height: 160px;
+    padding: 50px;
+    background-color: white;
+    color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 8px gray;
+
+}
+
+.srv-right-cnt {
+    margin-right: 50px;
+}
+
+
+.s-des {
+    width: 50%;
+    padding: 10px;
+    font-size: 24px;
+
+}
+
+.two-box {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.author-img {
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    margin: 15px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 22px;
+    border-right: 3px solid red;
+    padding-right: 10px;
+}
+
+.author-contain {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.r-btn {
+    border-radius: 20px;
 }
