@@ -1,7 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-
 }
 
 .nav-container {
@@ -10,7 +9,6 @@
     padding: 10px;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .menu {
@@ -18,18 +16,17 @@
     display: flex;
     gap: 15px;
     color: white;
-
 }
 
 .menu-items:hover {
     color: rgb(11, 38, 187);
     cursor: pointer;
-
 }
 
 .banner-contain {
     height: 100vh;
-    background-image: url("./Assets/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
+    background-image: url("./Assets/image/background.jpg"),
+        linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,8 +34,6 @@
     display: flex;
     align-items: center;
     text-align: center;
-
-
 }
 
 .banner-info {
@@ -62,7 +57,6 @@
     width: 50%;
     margin: auto;
     font-size: 24px;
-
 }
 
 .btn {
@@ -72,7 +66,6 @@
     border-radius: 3px;
     border: none;
     cursor: pointer;
-
 }
 
 .bg-primary {
@@ -82,7 +75,8 @@
 
 .service-cotain {
     height: 100vh;
-    background-image: url("./Assets/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    background-image: url("./Assets/image/footer-bg.png"),
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,18 +86,15 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 40px;
-
 }
 
 .icon {
     width: 70px;
-
 }
 
 ol {
     margin-left: 30px;
     font-size: 20px;
-
 }
 
 .box {
@@ -116,19 +107,16 @@ ol {
     color: black;
     border-radius: 5px;
     box-shadow: 4px 4px 8px gray;
-
 }
 
 .srv-right-cnt {
     margin-right: 50px;
 }
 
-
 .s-des {
     width: 50%;
     padding: 10px;
     font-size: 24px;
-
 }
 
 .two-box {
@@ -157,7 +145,6 @@ ol {
     display: flex;
     align-items: center;
     padding: 20px;
-
 }
 
 .r-btn {
@@ -173,7 +160,6 @@ ol {
     margin-top: -65px;
     border-radius: 30px;
     padding: 10px 30px;
-
 }
 
 .phone-call {
@@ -208,19 +194,15 @@ ol {
     border-radius: 5px;
     box-shadow: 4px 8px 4px rgb(243, 166, 166);
     background-color: rgba(241, 76, 76, 0.872);
-
 }
 
 .blog-contain {
     text-align: center;
-
 }
 
 .blog-t {
     color: black;
     padding: 50px;
-
-
 }
 
 h3 {
@@ -237,20 +219,18 @@ h3 {
     justify-content: space-around;
     margin-left: 150px;
     margin-right: 150px;
-
 }
 
 .foot {
     margin-top: 50px;
     height: 60vh;
-    background-image: url("./Assets/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-image: url("./Assets/image/footer-bg.png"),
+        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-
-
 }
 
 .footer {
@@ -263,7 +243,6 @@ h3 {
 
 li {
     padding-bottom: 10px;
-
 }
 
 ul {
