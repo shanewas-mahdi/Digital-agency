@@ -133,7 +133,7 @@ ol {
 
 .two-box {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     margin-top: 5px;
 }
 
@@ -150,7 +150,7 @@ ol {
     margin-right: 20px;
     font-size: 22px;
     border-right: 3px solid red;
-    padding-right: 10px;
+    padding-right: 30px;
 }
 
 .author-contain {
@@ -162,4 +162,80 @@ ol {
 
 .r-btn {
     border-radius: 20px;
+    color: red;
+}
+
+.appoint-contain {
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.833);
+    width: 80%;
+    margin: auto;
+    margin-top: -65px;
+    border-radius: 30px;
+    padding: 10px 30px;
+
+}
+
+.phone-call {
+    display: flex;
+    align-items: center;
+    border-right: 3px solid white;
+    padding: 20px;
+    gap: 10px;
+    color: white;
+    font-size: 22px;
+}
+
+.appoint-des {
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 150px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.blog-img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(172, 168, 168);
+    border-radius: 5px;
+    box-shadow: 4px 8px 4px rgb(243, 166, 166);
+    background-color: rgba(241, 76, 76, 0.872);
+
+}
+
+.blog-contain {
+    text-align: center;
+
+}
+
+.blog-t {
+    color: black;
+    padding: 50px;
+
+
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+.blog-des {
+    color: black;
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+
 }
