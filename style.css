@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.nav-container {
+    display: flex;
+    background-color: gray;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+
+}
+
+.menu-items:hover {
+    color: white;
+    cursor: pointer;
+}
