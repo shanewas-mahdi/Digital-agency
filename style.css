@@ -239,3 +239,41 @@ h3 {
     margin-right: 150px;
 
 }
+
+.foot {
+    margin-top: 50px;
+    height: 60vh;
+    background-image: url("./Assets/image/footer-bg.png"), linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    height: 96%;
+}
+
+li {
+    padding-bottom: 10px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.copy {
+    text-align: center;
+}
+
+.foot-ti {
+    margin-bottom: 20px;
+}
