@@ -25,3 +25,15 @@
     color: white;
     cursor: pointer;
 }
+
+.banner-contain {
+    height: 100vh;
+    background-image: url("./Assets/image/background.jpg"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
